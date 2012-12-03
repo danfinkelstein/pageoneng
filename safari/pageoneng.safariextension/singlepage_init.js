@@ -1,6 +1,7 @@
 var GM_SPN = {
     'sites' : {
         //v1.0
+        'nybooks.com' : 'pagination=false',
         'nytimes.com' : 'pagewanted=all',
         'newyorker.com' : 'currentPage=all',
         'vanityfair.com' : 'currentPage=all',

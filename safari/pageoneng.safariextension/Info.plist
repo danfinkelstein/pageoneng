@@ -49,6 +49,7 @@
 				<string>*.slate.com</string>
 				<string>*.vanityfair.com</string>
 				<string>*.wired.com</string>
+                <string>*.nybooks.com</string>
 				<string>*.nytimes.com</string>
 				<string>*.observer.com</string>
 				<string>*.thenation.com</string>

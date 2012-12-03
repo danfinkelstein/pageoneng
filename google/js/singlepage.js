@@ -1,13 +1,14 @@
 var GM_SPN = {
     'sites' : {
         //v1.0
+        'nybooks.com' : 'pagination=false',
         'nytimes.com' : 'pagewanted=all',
+        'abcnews.go.com' : 'singlePage=true',
         'newyorker.com' : 'currentPage=all',
         'vanityfair.com' : 'currentPage=all',
         'theatlantic.com' : [ /\/archive\//, '/print/' ],
         'gourmet.com' : 'printable=true',
         'details.com' : 'printable=true',
-//      'slate.com' : [ /(\/id\/\d+\/)($|pagenum\/\d+.*)/, '$1pagenum/all/'],
         'wired.com' : [ /(\/\d{4}\/\d{2}\/[^\/]+\/)(\d+[^\?]*)?(\?.+)?$/, '$1all/1$3' ],
         'observer.com' : 'show=all',
 

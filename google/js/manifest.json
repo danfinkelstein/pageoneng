@@ -1,7 +1,7 @@
 {
    "content_scripts": [ {
       "js": [ "singlepage.js" ],
-      "matches": [ "*://*.details.com/*", "*://*.newyorker.com/*", "*://*.theatlantic.com/*", "*://*.gourmet.com/*", "*://*.slate.com/*", "*://*.vanityfair.com/*", "*://*.wired.com/*", "*://*.nytimes.com/*", "*://*.observer.com/*", "*://*.thenation.com/*", "*://*.businessweek.com/*", "*://*.tnr.com/*", "*://*.rollingstone.com/*", "*://*.washingtonpost.com/*", "*://*.laphamsquarterly.org/*", "*://*.outsideonline.com/*", "*://*.gq.com/*", "*://*.moreintelligentlife.com/*", "*://*.foreignpolicy.com/*", "*://*.villagevoice.com/*", "*://*.cjr.org/*" ],
+      "matches": [ "*://*.nybooks.com/*", "*://*.abcnews.go.com/*", "*://*.details.com/*", "*://*.newyorker.com/*", "*://*.theatlantic.com/*", "*://*.gourmet.com/*", "*://*.slate.com/*", "*://*.vanityfair.com/*", "*://*.wired.com/*", "*://*.nytimes.com/*", "*://*.observer.com/*", "*://*.thenation.com/*", "*://*.businessweek.com/*", "*://*.tnr.com/*", "*://*.rollingstone.com/*", "*://*.washingtonpost.com/*", "*://*.laphamsquarterly.org/*", "*://*.outsideonline.com/*", "*://*.gq.com/*", "*://*.moreintelligentlife.com/*", "*://*.foreignpolicy.com/*", "*://*.villagevoice.com/*", "*://*.cjr.org/*" ],
       "run_at": "document_start"
    } ],
    "description": "Always display the single-page version of articles at popular news sites.",
